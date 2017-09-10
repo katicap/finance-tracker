@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.3'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'stock_quote'
 #gem 'sqlite3'
 #gem 'sqlite3', '~> 1.3.13'
 gem 'sprockets-rails', '3.1.1'
@@ -63,3 +64,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'jquery-rails'
+gem "font-awesome-rails"
