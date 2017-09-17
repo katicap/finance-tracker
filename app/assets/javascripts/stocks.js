@@ -11,8 +11,8 @@ init_stock_lookup = function(){
     hide_spinner();
   });
   
-  $('#stock-lookup-form').on('ajax:success', function(event, data, status){
-    $('#stock-lookup').replaceWith(data);
+  $('#stock-lookup-form').on('ajax:success', function(event, data, status, xhr){
+    $('#stock-lookup').replaceWith(event.detail[2].responseText);
     init_stock_lookup();
   });
   
